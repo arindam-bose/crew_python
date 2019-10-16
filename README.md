@@ -7,12 +7,15 @@
 
 ## Main Program of Cyclic Crew, which concludes:
 ### 1. Waveform and receiver design result by Cyclic CREW under both unimodular and PAR constraints for code length N = 100 and Power spectral density (PSD) of the optimized waveform and frequency response of the optimized receiver
-![Hello](/figs/spectral_power_unimodular.png)
-![Hello](/figs/freq_response_unimodular.png)
+![Spectral Power(dB) for unimodular constraint](/figs/spectral_power_unimodular.png)
+![Frequency Response(dB) for unimodular constraint](/figs/freq_response_unimodular.png)
 
-![Hello](/figs/spectral_power_par.png)
-![Hello](/figs/freq_response_par.png)
+![Spectral Power(dB) for PAR constraint](/figs/spectral_power_par.png)
+![Frequency Response(dB) for PAR constraint](/figs/freq_response_par.png)
 
 ### 2. Comparison with CAN-IV and CREW(Freq) for various code lengths
-![Hello](/figs/mse_N.png)
-![Hello](/figs/cpu_N.png)
+![MSE vs. N for unimodular constraint](/figs/mse_N_unimodular.png)
+![CPU time vs. N for unimodular constraint](/figs/cpu_N_unimodular.png)
+
+![MSE vs. N for PAR constraint](/figs/mse_N_par.png)
+![CPU time vs. N for PAR constraint](/figs/cpu_N_par.png)
